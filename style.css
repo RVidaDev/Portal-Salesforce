@@ -1,0 +1,65 @@
+
+body{
+    font-family: 'Krona One', sans-serif;
+}
+
+main {
+    margin: 0;
+    padding: 5%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+}
+.menu{
+    padding: 1%;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu_esquerda{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.menu_direita{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 2%;
+}
+
+.entre{
+    width: 150px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.costumer360{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.costumer360_texto{
+    align-items: center;
+}
+
+h2{
+    color: #556690;
+    font-size: 48px;
+}
+
+p{
+
+}
+
