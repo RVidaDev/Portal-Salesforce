@@ -5,13 +5,29 @@ body{
 
 main {
     margin: 0;
-    padding: 5%;
+    padding: 0;
     box-sizing: border-box;
     display: flex;
     justify-content: center; 
     align-items: center; 
     flex-direction: column;
 }
+
+h2{
+    color: #556690;
+    font-size: 48px;
+}
+
+p{
+    font-size: 25px;
+    color: #333333;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .menu{
     padding: 1%;
     background-color: #F1EEEE;
@@ -39,12 +55,9 @@ main {
     width: 150px;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
 
 .costumer360{
+    padding: 5%;
     display: flex;
     flex-direction: row;
 }
@@ -55,14 +68,6 @@ a{
     flex-direction: column;
 }
 
-h2{
-    color: #556690;
-    font-size: 48px;
-}
-
-p{
-    font-size: 25px;
-}
 
 .botao_conheca{
     background-color: #009EE0;
@@ -73,11 +78,12 @@ p{
     height: 50px;
     width: 150px; 
     box-shadow: 2px 2px 4px rgba(1, 1, 1, 0.5);
+    font-size: 15px;
 }
 .botao_conheca:hover{
     height: 60px;
     width: 160px;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .novidadesPortal{
@@ -164,16 +170,111 @@ p{
 
 .produtos{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #add8e6;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .explicacaoCostumer360{
-    background-color: #009EE0;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.explicacaoCostumer360 img{
+    width: 70%; 
+    height: auto;
+    padding: 10%;
+}
+
+.imagem_costumer360 img{
+    width: 300px
+    height: 300px;
+}
+
+.botao{
+    padding: 2%;
 }
 
 .p_novidades{
     text-align: center;
     font-size: 20px;
+}
+
+.noticias{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F1EEEE;
+}
+
+.texto_noticias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+.imagem_noticias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 5%;
+}
+
+.contato{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5%;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F1EEEE;
+    padding: 10%;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.formulario_inputs{
+    box-sizing: border-box;
+}
+
+
+.formulario_preencher{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.formulario_esquerda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario_direita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario_perguntas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 

@@ -65,73 +65,74 @@
             </div>
         </div>
 
-        <div class="produtos">
-            <h2>produtos</h2>
+        <h2>produtos</h2>  
+        <div class="produtos"> 
             <div class="explicacaoCostumer360">
                 <img src="assets/image 6.png" alt="">
                 <p>O Customer 360 da Salesforce é uma plataforma que reúne informações de clientes
                     de diversas fontes para criar um perfil completo de cada cliente.Isso ajuda as empresas
                     a entender melhor seus clientes e oferecer experiências personalizadas,
-                    melhorando seus relacionamentos e impulsionando o engajamento.</p>        
-                <div class="imagem_costumer360">
-                    <img src="assets/image 5.png" alt="">
-                </div>
+                    melhorando seus relacionamentos e impulsionando o engajamento.</p>
+            </div>        
+            <div class="imagem_costumer360">
+                <img src="assets/image 5.png" alt="">
             </div>
-            <button>conheça mais</button>
         </div>
 
+        <div class="botao">
+            <a href="#"><button class="botao_conheca">conheça mais</button></a>
+        </div>
+
+        <h2>Nova área de acessibilidade</h2>
         <div class="noticias">
-            <h2>Novas acessibilidade</h2>
-            <p>A Salesforce lançou uma nova área de acessibilidade, focada em tornar suas plataformas mais inclusivas</p>
-            <p>Com um mascote em forma de camaleão, simbolizando adaptação e flexibilidade, a empresa busca criar soluções
-                tecnológicas acessíveis para todos os usuários, independentemente de suas necessidades.</p>
-            <div class="areaAcessibilidade">
+            <div class="texto_noticias">
+                <p>A Salesforce lançou uma nova área de acessibilidade, focada em tornar suas plataformas mais inclusivas</p>
+                <p>Com um mascote em forma de camaleão, simbolizando adaptação e flexibilidade, a empresa busca criar soluções
+                   tecnológicas acessíveis para todos os usuários, independentemente de suas necessidades.</p>
+            </div>
+            <div class="imagem_noticias">
                 <img src="assets/image 7.png" alt="">
                 <img src="assets/Group 2 (1).png" alt="">
             </div>
         </div>
 
-        <div>
+        <div class="contato">
             <h2>entre em contato</h2>
             <p>Se você tiver alguma dúvida ou quiser solicitar um orçamento, por favor preencha o formulário abaixo,
                 entre em contato conosco ligando para o número 0800 891 1887 ou envie um e-mail para email salesforce@email.com </p>
             <div class="formulario">
-                <form action="" method="post">
+                <form class="formulario_inputs" action="" method="post">
                     <div class="formulario_preencher">
-                        <label for="nome">Nome</label>
-                        <input placeholder="nome" type="text" name="nome" id="nome" required>
-                        
-                        <br>
+                        <div class="formulario_esquerda">
+                            <label for="nome">Nome</label>
+                            <input placeholder="nome" type="text" name="nome" id="nome" required>
+                            
+                            <label for="empresa">Empresa</label>
+                            <input placeholder="empresa" type="text" name="empresa" id="empresa" required>
 
-                        <label for="empresa">Empresa</label>
-                        <input placeholder="empresa" type="text" name="empresa" id="empresa" required>
+                            <label for="segmento">Segmento</label>
+                            <input placeholder="segmento" type="text" name="segmento" id="segmento" required>
+                            
+                        </div>
 
-                        <br>
+                        <div class="formulario_direita">
+                            <label for="sobrenome">Sobrenome</label>
+                            <input placeholder="sobrenome" type="text" name="sobrenome" id="sobrenome" required>
 
-                        <label for="segmento">Segmento</label>
-                        <input placeholder="segmento" type="text" name="segmento" id="segmento" required>
-                        
-                        <br>
+                            <label for="telefone">Telefone</label>
+                            <input placeholder="Telefone" type="text" name="Telefone" id="Telefone" required>
 
-                        <label for="sobrenome">Sobrenome</label>
-                        <input placeholder="sobrenome" type="text" name="sobrenome" id="sobrenome" required>
-                        
-                        <br>
-
-                        <label for="telefone">Telefone</label>
-                        <input placeholder="Telefone" type="text" name="Telefone" id="Telefone" required>
-
-                        <br>
-
-                        <label for="email">email</label>
-                        <input placeholder="email" type="text" name="email" id="email" required>
+                            <label for="email">email</label>
+                            <input placeholder="email" type="text" name="email" id="email" required>
+                        </div>
                     </div>
 
-                    <label for="perguntas">perguntas ou comentários</label>
-                    <textarea placeholder="perguntas ou comentários" name="perguntas" id="perguntas" cols="40" rows="2"></textarea>
+                    <div class="formulario_perguntas">
+                        <label for="perguntas">perguntas ou comentários</label>
+                        <textarea placeholder="perguntas ou comentários" name="perguntas" id="perguntas" cols="40" rows="2"></textarea>
 
-                    <button class="botao" type="submit">enviar</button>
-
+                        <button class="botao" type="submit">enviar</button>
+                    </div>
                 </form>
             </div>
         </div>
@@ -157,7 +158,7 @@
             <a href="#">Notícias</a>
         </div>
 
-        <div class="contato">
+        <div class="numeroEmail">
             <p>ligue 0800 891 1887</p>
             <p>salesforce@gmail.com</p>
         </div>
