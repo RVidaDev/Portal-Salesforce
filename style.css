@@ -28,7 +28,7 @@ a{
     color: black;
 }
 
-.menu{
+header{
     padding: 1%;
     background-color: #F1EEEE;
     display: flex;
@@ -36,14 +36,7 @@ a{
     justify-content: space-between;
 }
 
-.menu_esquerda{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 30px;
-}
-
-.menu_direita{
+.menu{
     display: flex;
     align-items: center;
     justify-content: space-between;
